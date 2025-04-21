@@ -1,7 +1,7 @@
 /**
+ * Get type 'safety' in js projects in VSCode (and other IDEs with good typescript support).
+ * Why js > ts? Because it runs in browsers too and with things like `eval` (without bundling/compilation).
  * Ensure @cloudflare/workers-types is accessible. `npm i --save-dev @cloudflare/workers-types`
- *
- * Get type 'safety' in js projects in VSCode (and other IDEs with good typescript support). Why js > ts? Because it runs in browsers too and with things like `eval` (without bundling/compilation).
  */
 //@ts-check
 /// <reference types="@cloudflare/workers-types" />
