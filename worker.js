@@ -1,5 +1,8 @@
-// The below lines allow getting type 'safety' in js projects
-// npm i --save-dev @cloudflare/workers-types
+/**
+ * Ensure @cloudflare/workers-types is accessible. `npm i --save-dev @cloudflare/workers-types`
+ *
+ * Get type 'safety' in js projects
+ */
 /// <reference types="@cloudflare/workers-types" />
 //@ts-check
 export default {
