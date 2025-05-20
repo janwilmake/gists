@@ -104,10 +104,7 @@ export async function decryptToken(cipherText, secret) {
   const encrypted = combined.slice(IV_LENGTH);
 
   const decrypted = await crypto.subtle.decrypt(
-    {
-      name: ALGORITHM,
-      iv: iv,
-    },
+    { name: ALGORITHM, iv: iv },
     key,
     encrypted,
   );
