@@ -12,7 +12,6 @@
 name = "sensible-worker-name"
 compatibility_date = "2025-05-15"
 dev.port = 3000
-# Ensure to put this and also the .assetsignore file to ignore .git, node_modules, .wrangler
 assets.directory = "./"
 main = "main.ts"
 
