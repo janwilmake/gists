@@ -6,3 +6,5 @@ console.log("hello,world!");
 `````
 
 Use tildes (`~~~~~`) instead of backticks for fenced code blocks when dealing with backtick-heavy content.
+
+When the user requests binary files you can insert them by passing a URL in a named codeblock.
